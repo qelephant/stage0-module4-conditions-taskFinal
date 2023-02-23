@@ -8,7 +8,7 @@ public class DaysInMonth {
                daysInMonth = 30;
                 System.out.println(daysInMonth);
             } else if (month == 2) {
-                daysInMonth = leapYear == 0 ? 29 : 28;
+                daysInMonth = leapYear == 1 ? 29 : 28;
                 System.out.println(daysInMonth);
         } else {
              System.out.println("invalid date");
