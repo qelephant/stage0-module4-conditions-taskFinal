@@ -5,7 +5,7 @@ public class TriangleSidesValidator {
         int flag;
         if(firstSide + secondSide  >  thirdSide) {
 			if (secondSide + thirdSide > firstSide) {
-				if (firstSide + thirdSide > side2) {
+				if (firstSide + thirdSide > secondSide) {
 					flag = 1;
 				}
 			}
